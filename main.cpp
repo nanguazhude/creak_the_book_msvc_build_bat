@@ -67,6 +67,10 @@ int main(int argc, char *argv[]) {
         varOut << QStringLiteral(R"(qmake -r -tp vc)") << endl;
     }
 
+    varOut << endl;
+    varOut << QStringLiteral("cmd");
+    varOut << endl;
+
     return 0;
 }
 
