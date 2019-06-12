@@ -38,7 +38,7 @@ int main(int argc, char *argv[]) {
         Item{ QStringLiteral("chapter10") },
         Item{ QStringLiteral("sstd_introduce_qmake") },
         Item{ QStringLiteral("sstd_create_windows_qt_dll_link") },
-        Item{ QStringLiteral("creak_the_book_msvc_build_bat") },
+        //Item{ QStringLiteral("creak_the_book_msvc_build_bat") },
     };
 
     QFile varFile{ varDir.filePath(QStringLiteral("../update.all.msvc.bat")) };
